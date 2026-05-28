@@ -8,12 +8,12 @@
 ### Task 1.1: DB 환경 구성 및 스키마 적용
 - **목표**: PostgreSQL 17 환경 구축 및 `schema.sql` 기반 테이블 생성
 - **Dependencies**: 
-  - [ ] 없음 (None)
+  - [x] 없음 (None)
 - **완료 조건 (Definition of Done)**:
-  - [ ] 로컬 또는 클라우드에 PostgreSQL 17 인스턴스 실행
-  - [ ] `database/schema.sql` 스크립트 에러 없이 실행 완료
-  - [ ] `psql` 또는 DB 클라이언트를 통해 6개 테이블 및 4개 ENUM 타입 생성 확인
-  - [ ] 성능 최적화를 위한 6개의 인덱스 생성 확인
+  - [x] 로컬 또는 클라우드에 PostgreSQL 17 인스턴스 실행
+  - [x] `database/schema.sql` 스크립트 에러 없이 실행 완료
+  - [x] `psql` 또는 DB 클라이언트를 통해 6개 테이블 및 4개 ENUM 타입 생성 확인
+  - [x] 성능 최적화를 위한 6개의 인덱스 생성 확인
 
 ### Task 1.2: 시드 데이터(Seed Data) 구성 (선택/디버깅용)
 - **목표**: BE/FE 개발을 위한 초기 테스트 데이터 삽입
